@@ -36,3 +36,13 @@ document.writeln("<br>La direccion de live server es: " + url);
 // url = "hola mundo";
 
 document.writeln("<br>La direccion de live server es : " + url);
+
+//ejemplo de suma de dos numeros
+// todo: realizar este codigo con const
+let numero1, numero2, resultado;
+numero1 = 10;
+numero2 = 25;
+
+resultado = numero1 + numero2;
+
+document.writeln("<br>El resultado de la suma es: "+ resultado)
