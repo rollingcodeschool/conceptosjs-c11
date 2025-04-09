@@ -39,10 +39,13 @@ document.writeln("<br>La direccion de live server es : " + url);
 
 //ejemplo de suma de dos numeros
 // todo: realizar este codigo con const
-let numero1, numero2, resultado;
-numero1 = 10;
-numero2 = 25;
+// const numero1, numero2, resultado;
+const numero1 = parseInt(prompt('Ingrese un numero')),
+  numero2 = parse(prompt('ingrese un segundo numero'));
 
-resultado = numero1 + numero2;
+  console.log(numero1)
+  console.log(numero2)
 
-document.writeln("<br>El resultado de la suma es: "+ resultado)
+// const resultado = numero1 + numero2;
+
+document.writeln("<br>El resultado de la suma es: " + (numero1 + numero2));
