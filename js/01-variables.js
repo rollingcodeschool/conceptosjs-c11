@@ -41,7 +41,7 @@ document.writeln("<br>La direccion de live server es : " + url);
 // todo: realizar este codigo con const
 // const numero1, numero2, resultado;
 const numero1 = parseInt(prompt('Ingrese un numero')),
-  numero2 = parse(prompt('ingrese un segundo numero'));
+  numero2 = parseInt(prompt('ingrese un segundo numero'));
 
   console.log(numero1)
   console.log(numero2)
@@ -49,3 +49,48 @@ const numero1 = parseInt(prompt('Ingrese un numero')),
 // const resultado = numero1 + numero2;
 
 document.writeln("<br>El resultado de la suma es: " + (numero1 + numero2));
+
+//Tipos de datos primitivos
+//string
+const nombreUsuario = 'Emilse Arias'
+const producto = "Celular"
+const tarea = `Realizar el tp 1`
+//number
+const edad = 30;
+const precioNuevo = 35.6;
+const negativo = -40.6;
+//booleanos
+const encendido = true
+const lavado = false
+
+//null: es un valor vacio
+let vacio = null;
+
+//undefined
+let datoNuevo;
+//tipos de referenciales
+
+//objeto con notacion literal
+const funko = {
+  nombre: 'Ironman',
+  precio: 30,
+  codigo: 'SJ768'
+}
+
+//arrays
+const productos = ['celular', 'table', 'notebook']
+
+console.log(nombreUsuario)
+console.log(producto)
+console.log(tarea)
+console.log(edad)
+console.log(precioNuevo)
+console.log(negativo)
+console.log(encendido)
+console.log(lavado)
+console.log(vacio)
+console.log(datoNuevo)
+console.log(funko)
+console.log(productos)
+
+
