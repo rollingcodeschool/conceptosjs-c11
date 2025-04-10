@@ -74,4 +74,4 @@ if(isNaN(edad)) {
 2- Usar console.log() para depuración en lugar de modificar el documento.
 
 ---
-"Los condicionales deciden el flujo de tu código, pero tu persistencia decide el flujo de tu aprendizaje. ¡Sigue codificando! 🚀"
+> *"Los condicionales deciden el flujo de tu código, pero tu persistencia decide el flujo de tu aprendizaje. ¡Sigue codificando! 🚀"*
