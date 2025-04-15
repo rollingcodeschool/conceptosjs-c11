@@ -23,6 +23,8 @@ let saldo = 10000
 
 switch(opcion){
     case 1:
+    case "1":
+    case 'saldo':
         document.writeln('El saldo es $'+ saldo);
         break;
     case 2:
