@@ -54,3 +54,13 @@ switch(opcion){
     default:
         document.writeln('❌ Ingresaste una opción invalida')
 }
+
+// pistas para el ejercicio 9 
+// Selecciono una cantidad maxima de caracteres que va a ingresar el usuario
+// Por Ej: ingrese una frase de 5 caracteres
+const frase = 'hola'
+
+console.log(frase.length) // 4
+console.log(frase.charAt(0)) //h
+console.log(frase.charAt(1)) //o
+console.log(frase.charAt(3)) //l
