@@ -5,12 +5,12 @@ const columnas = parseInt(prompt('Ingresa un número de columnas'))
 
 document.writeln(`<table><tbody>`)
 
-for(let indiceFilas =1; indiceFilas <=filas; indiceFilas++){
-    document.writeln(`
-            <tr>
-                <td>35</td>
-            </tr>
-    `)
+for(let indiceFilas = 0; indiceFilas < filas; indiceFilas++){
+    document.writeln(`<tr>`)
+    for(let indiceColumnas=0; indiceColumnas< columnas; indiceColumnas++){
+        document.writeln(`<td>35</td>`)
+    }
+    document.writeln(`</tr>`)
 }
 
 document.writeln(` </tbody></table>`)
