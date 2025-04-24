@@ -13,6 +13,11 @@ function sumar(numero1,numero2){
 }
 
 //funciones que retornan un valor
+function multiplicar(numero1, numero2){
+    const resultado = numero1 * numero2
+    console.log(resultado)
+    return resultado
+}
 
 //invocar o llamar a una funcion
 saludar();
@@ -22,3 +27,8 @@ const num2 = parseInt(prompt('ingresa un segundo'))
 
 sumar(num1,num2);
 sumar(num1, 10)
+
+// const resultado = multiplicar(num1, num2)
+// document.writeln('El resultado de la multiplicacion es:'+ resultado)
+document.writeln('El resultado de la multiplicacion es:'+ multiplicar(num1, num2))
+
