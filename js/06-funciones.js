@@ -1,7 +1,13 @@
 //Sintaxis: funcion tradicinal, expresion de funcion, arrow functions
 
 //funciones sin parametros
-function saludar(){
+// function saludar(){
+//     //todas las lineas de codigo que quiero hacer para saludar
+//     document.writeln('<p>Hola mundo 🌎</p>')
+// }
+
+// Expresion de funcion
+const saludar = function (){
     //todas las lineas de codigo que quiero hacer para saludar
     document.writeln('<p>Hola mundo 🌎</p>')
 }
@@ -13,11 +19,13 @@ function sumar(numero1,numero2){
 }
 
 //funciones que retornan un valor
-function multiplicar(numero1, numero2){
-    const resultado = numero1 * numero2
-    console.log(resultado)
-    return resultado
-}
+// function multiplicar(numero1, numero2){
+//     const resultado = numero1 * numero2
+//     console.log(resultado)
+//     return resultado
+// }
+
+const multiplicar = (numero1, numero2) => numero1 * numero2
 
 //invocar o llamar a una funcion
 saludar();
