@@ -11,13 +11,17 @@ const usuario = {
     estado: true,
     //metodos
     nombreCompleto: function (){
-        document.writeln('Hola soy...')
+        console.log(this)
+        document.writeln(`<p>Hola soy ${this.nombre}, ${this.apellido}</p>`)
     },
     cambiarEstado: ()=>{
-        document.writeln('Aqui tengo que cambiar el estado')
+       
+        document.writeln('<p>Aqui tengo que cambiar el estado</p>')
     }
 }
 // mostrar un objeto
+
+
 console.log(usuario)
 document.writeln(usuario+'<br>')
 
@@ -36,6 +40,11 @@ document.writeln(`<p>El usuario es: ${usuario.nombreUsuario}</p>`)
 usuario.github = 'http://127.0.0.1:5500/index.html'
 document.writeln(`<p>El link de github del usuario es: ${usuario.github}</p>`)
 
-// usuario.nombreCompleto()
-// usuario.cambiarEstado()
+//borrar una propiedad del objeto
+delete usuario.github
+document.writeln(`<p>El link de github del usuario es: ${usuario.github}</p>`)
+
+//trabajar con los metodos
+ usuario.nombreCompleto()
+ usuario.cambiarEstado()
 //clases
