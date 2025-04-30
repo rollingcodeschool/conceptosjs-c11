@@ -15,7 +15,7 @@ const usuario = {
         document.writeln(`<p>Hola soy ${this.nombre}, ${this.apellido}</p>`)
     },
     cambiarEstado: ()=>{
-       
+        console.log(this)
         document.writeln('<p>Aqui tengo que cambiar el estado</p>')
     }
 }
