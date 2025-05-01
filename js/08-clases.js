@@ -37,6 +37,15 @@ class Persona{
     }
 }
 
+
+class Alumno extends Persona{
+    constructor(nombreParam, apellido, dni, email, edad, legajo, curso, asistencia){
+        
+    }
+    //get y set
+    //metodos
+}
+
 // nombreObjeto.propiedad
 //cuando utilizamos a la clase: crear un objeto o instanciar
 const tobias = new Persona('Tobias','Conde', '23444555','tobias@mail.com',25)
