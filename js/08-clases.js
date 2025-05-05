@@ -80,7 +80,18 @@ class Alumno extends Persona{
         }
     }
     //metodos
+    //ejemplo de polimorfismo
+    mostrarDatos(){
+        document.writeln(`<ol>
+            <li>DNI: ${this.dni} </li>
+            <li>Email: ${this.getEmail} </li>
+            <li>Edad: ${this.edad} </li>
+            <li>Asistencia: ${this.getAsistencia}</li>
+            <li>Curso: ${this.getCurso}</li>
+            </ol>`)
+    }
 }
+
 
 // nombreObjeto.propiedad
 //cuando utilizamos a la clase: crear un objeto o instanciar
@@ -94,3 +105,9 @@ lourdes.mostrarDatos()
 
 lourdes.setEmail = 'lourdes2@mail.com'
 lourdes.mostrarDatos()
+
+const luchiano = new Alumno('Luchiano', 'Guiot', '345665444', 'luchiano@mail.com',24, 1000, 'FullStack')
+console.log(luchiano)
+
+luchiano.mostrarDatos()
+luchiano.mostrarDatosAlumno()
